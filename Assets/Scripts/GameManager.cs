@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro; 
 
 public class GameManager : MonoBehaviour
 {
 
-    //public TextMeshProUGUI CoinText, OrbText;
-    //public Image Item1, Item 2, Item 3, Item 4;
+    public TextMeshProUGUI CoinText, OrbText;
+    //public Image Item1, Item2;
     public static GameManager gameManager;
     public int Orbs = 0, Coins = 0;
 
@@ -15,10 +17,10 @@ public class GameManager : MonoBehaviour
         Orbs++;
         //OrbText.text =  "Orbs: " + Orbs;
     }
-      public void CoinCollected()
+      public void CoinCollected(int i)
     {
-        Coins++;
-        //CoinText.text = "coins: " + Coins;
+        Coins+=i;
+        CoinText.text = "Coins: " + Coins;
     }
 
     public void ItemCollected(Sprite sprite, int id)

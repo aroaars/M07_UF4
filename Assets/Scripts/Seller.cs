@@ -14,17 +14,19 @@ public class Seller : MonoBehaviour
 
    private void OnTriggerEnter(Collider other)
    {
-        if(_canBuy)
-        {
-            VCamDisable.gameObject.SetActive(false);
-            VCamEnable.gameObject.SetActive(true);
-            Camera.main.GetComponent<CinemachineBrain>().enabled = true;
-            Camera.main.cullingMask &= ~(1 << 8); //Treu la capa 8 per no veure ni poder moure al Player.
-            _playerMover = other.GetComponent<PlayerMover>();
-            _playerMover.canMove = false;
-            UI.SetActive(true);
-            _canBuy = false;
-        }
+     Debug.Log(other.gameObject.name);
+     _playerMover = other.GetComponent<PlayerMover>();
+
+     if(_canBuy)
+     {
+          VCamDisable.gameObject.SetActive(false);
+          VCamEnable.gameObject.SetActive(true);
+          Camera.main.GetComponent<CinemachineBrain>().enabled = true;
+          Camera.main.cullingMask &= ~(1 << 8); //Treu la capa 8 per no veure ni poder moure al Player.
+          _playerMover.canMove = false;
+          UI.SetActive(true);
+          _canBuy = false;
+     }
    }
 
    private void OnTriggerExit(Collider other)

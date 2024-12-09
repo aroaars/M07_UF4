@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Item : MonoBehaviour
+public class Item : MonoBehaviour, ICollectables
 {
 
 public int ID;
 public Sprite Sprite;
 
-public void OnCollected()
+public void Collect()
 {
     GameManager.gameManager.ItemCollected(Sprite, ID);
     Destroy(gameObject);
