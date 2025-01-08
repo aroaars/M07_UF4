@@ -41,7 +41,7 @@ public class Seller : MonoBehaviour
         VCamEnable.gameObject.SetActive(false);
         Camera.main.GetComponent<CinemachineBrain>().enabled = false;
         Camera.main.cullingMask |= (1 << 8); //Tornar a afegir la capa 8. Player tornarà a la normalitat, i al cap d’un segon es podrà tornar a entrar.
-        UI.SetActive(true);
+        UI.SetActive(false);
    }
 
    private IEnumerator WaitForABit()

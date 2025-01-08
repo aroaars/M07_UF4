@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     public void OrbCollected()
     {
         Orbs++;
-        //OrbText.text =  "Orbs: " + Orbs;
+        OrbText.text =  "Orbs: " + Orbs;
     }
       public void CoinCollected(int i)
     {

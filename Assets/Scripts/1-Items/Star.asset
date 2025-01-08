@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Star
   m_EditorClassIdentifier: 
   image: {fileID: 21300000, guid: d17e9ed8cd12b4aa18e0a4e95a16871b, type: 3}
-  price: 10
+  price: 4
