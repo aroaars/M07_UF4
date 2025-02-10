@@ -38,6 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
+  m_IndirectSpecularColor: {r: 1.2128731, g: 1.0067068, b: 1.1437491, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1811,6 +1812,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2fe444bfbb4364e58b879efc47a9a491, type: 3}
   m_PrefabInstance: {fileID: 370695375}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &370695377 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2fe444bfbb4364e58b879efc47a9a491, type: 3}
@@ -1864,6 +1866,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+=======
+>>>>>>> origin/main
 --- !u!1001 &376488829
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2217,7 +2221,6 @@ Terrain:
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
-  m_HeightmapMinimumLODSimplification: 0
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 2
   m_DrawHeightmap: 1
@@ -2456,6 +2459,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: LargeIntestinefbx
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 919132149155446097, guid: 095318f69f0019c4e83f1cb126599ba2, type: 3}
       propertyPath: m_TagString
       value: Organ
@@ -2470,12 +2474,19 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 095318f69f0019c4e83f1cb126599ba2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 553033500}
+=======
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+>>>>>>> origin/main
   m_SourcePrefab: {fileID: 100100000, guid: 095318f69f0019c4e83f1cb126599ba2, type: 3}
 --- !u!4 &553033498 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 095318f69f0019c4e83f1cb126599ba2, type: 3}
   m_PrefabInstance: {fileID: 553033497}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &553033499 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 095318f69f0019c4e83f1cb126599ba2, type: 3}
@@ -2529,6 +2540,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+=======
+>>>>>>> origin/main
 --- !u!1 &589295408
 GameObject:
   m_ObjectHideFlags: 0
@@ -2740,16 +2753,21 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
+<<<<<<< HEAD
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
       insertIndex: -1
       addedObject: {fileID: 627836481}
+=======
+    m_AddedComponents: []
+>>>>>>> origin/main
   m_SourcePrefab: {fileID: 100100000, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
 --- !u!4 &627836479 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
   m_PrefabInstance: {fileID: 627836478}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &627836480 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
@@ -2776,6 +2794,8 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.07888441, y: 0.048075665, z: 0.12368171}
   m_Center: {x: -0.0060487576, y: 0.0012938146, z: 0.0010689233}
+=======
+>>>>>>> origin/main
 --- !u!114 &698070776 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2929252283123773951, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
@@ -3222,16 +3242,21 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
+<<<<<<< HEAD
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
       insertIndex: -1
       addedObject: {fileID: 771560887}
+=======
+    m_AddedComponents: []
+>>>>>>> origin/main
   m_SourcePrefab: {fileID: 100100000, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
 --- !u!4 &771560885 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
   m_PrefabInstance: {fileID: 771560884}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &771560886 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
@@ -3258,6 +3283,8 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.07888436, y: 0.048075635, z: 0.12368172}
   m_Center: {x: -0.0060485164, y: 0.0012942981, z: 0.0010689239}
+=======
+>>>>>>> origin/main
 --- !u!1 &782674262
 GameObject:
   m_ObjectHideFlags: 0
@@ -4540,10 +4567,16 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 947660037}
+<<<<<<< HEAD
   - component: {fileID: 947660038}
   m_Layer: 0
   m_Name: Kidneys
   m_TagString: Organ
+=======
+  m_Layer: 0
+  m_Name: Kidneys
+  m_TagString: Untagged
+>>>>>>> origin/main
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4565,6 +4598,7 @@ Transform:
   - {fileID: 627836479}
   m_Father: {fileID: 1778235311}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!54 &947660038
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4592,6 +4626,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+=======
+>>>>>>> origin/main
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -5342,6 +5378,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stomach
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 919132149155446097, guid: 9ee7aa446783c284f9f828f3119d4436, type: 3}
       propertyPath: m_TagString
       value: Organ
@@ -5356,12 +5393,19 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9ee7aa446783c284f9f828f3119d4436, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1047391436}
+=======
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+>>>>>>> origin/main
   m_SourcePrefab: {fileID: 100100000, guid: 9ee7aa446783c284f9f828f3119d4436, type: 3}
 --- !u!4 &1047391434 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9ee7aa446783c284f9f828f3119d4436, type: 3}
   m_PrefabInstance: {fileID: 1047391433}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &1047391435 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9ee7aa446783c284f9f828f3119d4436, type: 3}
@@ -5415,6 +5459,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+=======
+>>>>>>> origin/main
 --- !u!1 &1071384940
 GameObject:
   m_ObjectHideFlags: 3
@@ -5576,6 +5622,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: c226903fae28d6e4f8ba216414a8417a, type: 2}
     - target: {fileID: 919132149155446097, guid: a0fd4e9cbf24c884da0a799fdaaddc28, type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: Pancreas
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a0fd4e9cbf24c884da0a799fdaaddc28, type: 3}
@@ -5598,12 +5645,21 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a0fd4e9cbf24c884da0a799fdaaddc28, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1134266574}
+=======
+      value: M0008_Pancreas
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+>>>>>>> origin/main
   m_SourcePrefab: {fileID: 100100000, guid: a0fd4e9cbf24c884da0a799fdaaddc28, type: 3}
 --- !u!4 &1134266570 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a0fd4e9cbf24c884da0a799fdaaddc28, type: 3}
   m_PrefabInstance: {fileID: 1134266569}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &1134266571 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a0fd4e9cbf24c884da0a799fdaaddc28, type: 3}
@@ -5673,6 +5729,8 @@ MonoBehaviour:
   recollit: 0
   puntPut: {fileID: 1712687239}
   modelOrgan: {fileID: 1134266571}
+=======
+>>>>>>> origin/main
 --- !u!1 &1139128993
 GameObject:
   m_ObjectHideFlags: 0
@@ -5895,6 +5953,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4a4690a59bbcb489ea91e8e587b7a64d, type: 3}
   m_PrefabInstance: {fileID: 1144342056}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &1144342058 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4a4690a59bbcb489ea91e8e587b7a64d, type: 3}
@@ -5948,6 +6007,8 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.49551696
   m_Center: {x: -0.0018546932, y: -0.0570282, z: 0.20541418}
+=======
+>>>>>>> origin/main
 --- !u!1001 &1168535155
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6982,6 +7043,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallIntestine
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 919132149155446097, guid: 98f022489baf7c248a5445c8a0a2a42c, type: 3}
       propertyPath: m_TagString
       value: Organ
@@ -6996,12 +7058,19 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 98f022489baf7c248a5445c8a0a2a42c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1338456260}
+=======
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+>>>>>>> origin/main
   m_SourcePrefab: {fileID: 100100000, guid: 98f022489baf7c248a5445c8a0a2a42c, type: 3}
 --- !u!4 &1338456258 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 98f022489baf7c248a5445c8a0a2a42c, type: 3}
   m_PrefabInstance: {fileID: 1338456257}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &1338456259 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 98f022489baf7c248a5445c8a0a2a42c, type: 3}
@@ -7055,6 +7124,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+=======
+>>>>>>> origin/main
 --- !u!1 &1384255008
 GameObject:
   m_ObjectHideFlags: 0
@@ -7398,6 +7469,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 240212441d30a44519df11167c177909, type: 3}
   m_PrefabInstance: {fileID: 1656674283}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &1656674285 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 240212441d30a44519df11167c177909, type: 3}
@@ -7451,6 +7523,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+=======
+>>>>>>> origin/main
 --- !u!1 &1701844507 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c9e7c710f294e86b306420d036975c, type: 3}
@@ -7811,15 +7885,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c719ebbfaec3d174cb2f39dd35a189bf, type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: Liver
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c719ebbfaec3d174cb2f39dd35a189bf, type: 3}
       propertyPath: m_TagString
       value: Organ
+=======
+      value: liver exported for sketchfab - now with the fucking base colours included
+>>>>>>> origin/main
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
+<<<<<<< HEAD
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c719ebbfaec3d174cb2f39dd35a189bf, type: 3}
       insertIndex: -1
@@ -7827,12 +7906,16 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c719ebbfaec3d174cb2f39dd35a189bf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1717828688}
+=======
+    m_AddedComponents: []
+>>>>>>> origin/main
   m_SourcePrefab: {fileID: 100100000, guid: c719ebbfaec3d174cb2f39dd35a189bf, type: 3}
 --- !u!4 &1717828686 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c719ebbfaec3d174cb2f39dd35a189bf, type: 3}
   m_PrefabInstance: {fileID: 1717828685}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &1717828687 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c719ebbfaec3d174cb2f39dd35a189bf, type: 3}
@@ -7886,6 +7969,8 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.07835054, y: 0.13059641, z: 0.19800505}
   m_Center: {x: -0.01941594, y: -0.012130618, z: 0.008396311}
+=======
+>>>>>>> origin/main
 --- !u!1 &1736462251
 GameObject:
   m_ObjectHideFlags: 0
