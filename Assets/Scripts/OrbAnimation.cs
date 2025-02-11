@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class OrbAnimation : MonoBehaviour
 {
-    public float scaleTome = 2f;
+    public float scaleTime = 0.01f;
     private float scale = 0.01f;
     public float rotateAmount = 2f;
-    public float scaleAmount = 0.5f;
+    public float scaleAmount = 2f;
     private float currentTime = 0f;
 
 
@@ -27,7 +27,7 @@ public class OrbAnimation : MonoBehaviour
     }
     
     transform.Rotate(0, rotateAmount, 0);
-    transform.localScale += new Vector3(1, 1f, 1f) * scale * scaleAmount;
+    transform.localScale += new Vector3(1, 1f, 1f) * scale;
    }
 
     private IEnumerator ScaleObject()

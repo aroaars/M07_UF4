@@ -12,6 +12,8 @@ public class OrganPlacement : MonoBehaviour
         {
             Debug.Log("Òrgan col·locat correctament!");
             ScoreManager.Instance.AddPoints(2); // Afegeix punts
+            Destroy(other.gameObject);
+
         }
         else
         {
