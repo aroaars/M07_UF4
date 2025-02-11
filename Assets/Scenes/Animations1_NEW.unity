@@ -1936,21 +1936,33 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2fe444bfbb4364e58b879efc47a9a491, type: 3}
       insertIndex: -1
+<<<<<<< HEAD
       addedObject: {fileID: 370695378}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2fe444bfbb4364e58b879efc47a9a491, type: 3}
       insertIndex: -1
       addedObject: {fileID: 370695379}
+=======
+      addedObject: {fileID: 370695379}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2fe444bfbb4364e58b879efc47a9a491, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 370695378}
+>>>>>>> origin/main
   m_SourcePrefab: {fileID: 100100000, guid: 2fe444bfbb4364e58b879efc47a9a491, type: 3}
 --- !u!4 &370695376 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2fe444bfbb4364e58b879efc47a9a491, type: 3}
   m_PrefabInstance: {fileID: 370695375}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/main
 --- !u!1 &370695377 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2fe444bfbb4364e58b879efc47a9a491, type: 3}
   m_PrefabInstance: {fileID: 370695375}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &370695378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1965,6 +1977,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctOrganName: Heart
 --- !u!135 &370695379
+=======
+--- !u!135 &370695378
+>>>>>>> origin/main
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1984,7 +1999,40 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.016053194
+<<<<<<< HEAD
   m_Center: {x: 0.00072275515, y: 0.00015678619, z: 0.0008609758}
+=======
+  m_Center: {x: 0.0007227552, y: 0.00015684581, z: 0.0008609758}
+--- !u!54 &370695379
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370695377}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+=======
+>>>>>>> origin/main
+>>>>>>> origin/main
 --- !u!1001 &376488829
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2576,10 +2624,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: LargeIntestinefbx
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/main
     - target: {fileID: 919132149155446097, guid: 095318f69f0019c4e83f1cb126599ba2, type: 3}
       propertyPath: m_TagString
       value: Organ
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2590,17 +2643,40 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 095318f69f0019c4e83f1cb126599ba2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 553033501}
+=======
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 095318f69f0019c4e83f1cb126599ba2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 553033501}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 095318f69f0019c4e83f1cb126599ba2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 553033500}
+=======
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+>>>>>>> origin/main
+>>>>>>> origin/main
   m_SourcePrefab: {fileID: 100100000, guid: 095318f69f0019c4e83f1cb126599ba2, type: 3}
 --- !u!4 &553033498 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 095318f69f0019c4e83f1cb126599ba2, type: 3}
   m_PrefabInstance: {fileID: 553033497}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/main
 --- !u!1 &553033499 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 095318f69f0019c4e83f1cb126599ba2, type: 3}
   m_PrefabInstance: {fileID: 553033497}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &553033500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2615,6 +2691,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctOrganName: Large Intestine
 --- !u!65 &553033501
+=======
+--- !u!65 &553033500
+>>>>>>> origin/main
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2633,8 +2712,42 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
+<<<<<<< HEAD
   m_Size: {x: 0.22708395, y: 0.27217254, z: 0.13829131}
   m_Center: {x: 0.005991656, y: 0.030433778, z: 0.009978588}
+=======
+  m_Size: {x: 0.2114959, y: 0.23046604, z: 0.11709569}
+  m_Center: {x: 0.0047493023, y: 0.009580429, z: 0.0063964007}
+--- !u!54 &553033501
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553033499}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+=======
+>>>>>>> origin/main
+>>>>>>> origin/main
 --- !u!1 &589295408
 GameObject:
   m_ObjectHideFlags: 0
@@ -2850,26 +2963,45 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/main
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
       insertIndex: -1
       addedObject: {fileID: 627836481}
+<<<<<<< HEAD
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
       insertIndex: -1
       addedObject: {fileID: 627836482}
+=======
+=======
+    m_AddedComponents: []
+>>>>>>> origin/main
+>>>>>>> origin/main
   m_SourcePrefab: {fileID: 100100000, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
 --- !u!4 &627836479 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
   m_PrefabInstance: {fileID: 627836478}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/main
 --- !u!1 &627836480 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
   m_PrefabInstance: {fileID: 627836478}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!136 &627836481
 CapsuleCollider:
+=======
+--- !u!65 &627836481
+BoxCollider:
+>>>>>>> origin/main
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2886,6 +3018,7 @@ CapsuleCollider:
   m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
+<<<<<<< HEAD
   serializedVersion: 2
   m_Radius: 0.061840847
   m_Height: 0.048075657
@@ -2904,6 +3037,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctOrganName: Kidney 2
+=======
+  serializedVersion: 3
+  m_Size: {x: 0.07888441, y: 0.048075665, z: 0.12368171}
+  m_Center: {x: -0.0060487576, y: 0.0012938146, z: 0.0010689233}
+=======
+>>>>>>> origin/main
+>>>>>>> origin/main
 --- !u!114 &698070776 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2929252283123773951, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
@@ -3355,26 +3495,45 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/main
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
       insertIndex: -1
       addedObject: {fileID: 771560887}
+<<<<<<< HEAD
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
       insertIndex: -1
       addedObject: {fileID: 771560888}
+=======
+=======
+    m_AddedComponents: []
+>>>>>>> origin/main
+>>>>>>> origin/main
   m_SourcePrefab: {fileID: 100100000, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
 --- !u!4 &771560885 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
   m_PrefabInstance: {fileID: 771560884}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/main
 --- !u!1 &771560886 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
   m_PrefabInstance: {fileID: 771560884}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!136 &771560887
 CapsuleCollider:
+=======
+--- !u!65 &771560887
+BoxCollider:
+>>>>>>> origin/main
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3391,6 +3550,7 @@ CapsuleCollider:
   m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
+<<<<<<< HEAD
   serializedVersion: 2
   m_Radius: 0.06184086
   m_Height: 0.048075635
@@ -3409,6 +3569,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctOrganName: Kidney 1
+=======
+  serializedVersion: 3
+  m_Size: {x: 0.07888436, y: 0.048075635, z: 0.12368172}
+  m_Center: {x: -0.0060485164, y: 0.0012942981, z: 0.0010689239}
+=======
+>>>>>>> origin/main
+>>>>>>> origin/main
 --- !u!1 &782674262
 GameObject:
   m_ObjectHideFlags: 0
@@ -4704,9 +4871,16 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 947660037}
+<<<<<<< HEAD
+  - component: {fileID: 947660038}
+  m_Layer: 0
+  m_Name: Kidneys
+  m_TagString: Organ
+=======
   m_Layer: 0
   m_Name: Kidneys
   m_TagString: Untagged
+>>>>>>> origin/main
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4728,6 +4902,36 @@ Transform:
   - {fileID: 627836479}
   m_Father: {fileID: 1778235311}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+--- !u!54 &947660038
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947660036}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+=======
+>>>>>>> origin/main
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -5478,10 +5682,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stomach
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/main
     - target: {fileID: 919132149155446097, guid: 9ee7aa446783c284f9f828f3119d4436, type: 3}
       propertyPath: m_TagString
       value: Organ
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5492,17 +5701,40 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9ee7aa446783c284f9f828f3119d4436, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1047391437}
+=======
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9ee7aa446783c284f9f828f3119d4436, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1047391437}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9ee7aa446783c284f9f828f3119d4436, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1047391436}
+=======
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+>>>>>>> origin/main
+>>>>>>> origin/main
   m_SourcePrefab: {fileID: 100100000, guid: 9ee7aa446783c284f9f828f3119d4436, type: 3}
 --- !u!4 &1047391434 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9ee7aa446783c284f9f828f3119d4436, type: 3}
   m_PrefabInstance: {fileID: 1047391433}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/main
 --- !u!1 &1047391435 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9ee7aa446783c284f9f828f3119d4436, type: 3}
   m_PrefabInstance: {fileID: 1047391433}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &1047391436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5517,6 +5749,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctOrganName: Stomach
 --- !u!135 &1047391437
+=======
+--- !u!135 &1047391436
+>>>>>>> origin/main
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5535,8 +5770,42 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
+<<<<<<< HEAD
   m_Radius: 0.012753099
   m_Center: {x: 0.0020236627, y: 0.0043840017, z: -0.0005032719}
+=======
+  m_Radius: 0.012543841
+  m_Center: {x: 0.00262571, y: 0.0022160122, z: 0.0012718019}
+--- !u!54 &1047391437
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047391435}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+=======
+>>>>>>> origin/main
+>>>>>>> origin/main
 --- !u!1 &1071384940
 GameObject:
   m_ObjectHideFlags: 3
@@ -5698,15 +5967,42 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: c226903fae28d6e4f8ba216414a8417a, type: 2}
     - target: {fileID: 919132149155446097, guid: a0fd4e9cbf24c884da0a799fdaaddc28, type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/main
       value: Pancreas
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a0fd4e9cbf24c884da0a799fdaaddc28, type: 3}
       propertyPath: m_TagString
       value: Organ
+<<<<<<< HEAD
+=======
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: a0fd4e9cbf24c884da0a799fdaaddc28, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1712687239}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a0fd4e9cbf24c884da0a799fdaaddc28, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1134266573}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a0fd4e9cbf24c884da0a799fdaaddc28, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1134266572}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a0fd4e9cbf24c884da0a799fdaaddc28, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1134266574}
+=======
+      value: M0008_Pancreas
+>>>>>>> origin/main
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
+<<<<<<< HEAD
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a0fd4e9cbf24c884da0a799fdaaddc28, type: 3}
       insertIndex: -1
@@ -5714,30 +6010,66 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a0fd4e9cbf24c884da0a799fdaaddc28, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1134266573}
+=======
+    m_AddedComponents: []
+>>>>>>> origin/main
+>>>>>>> origin/main
   m_SourcePrefab: {fileID: 100100000, guid: a0fd4e9cbf24c884da0a799fdaaddc28, type: 3}
 --- !u!4 &1134266570 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a0fd4e9cbf24c884da0a799fdaaddc28, type: 3}
   m_PrefabInstance: {fileID: 1134266569}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/main
 --- !u!1 &1134266571 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a0fd4e9cbf24c884da0a799fdaaddc28, type: 3}
   m_PrefabInstance: {fileID: 1134266569}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &1134266572
 MonoBehaviour:
+=======
+--- !u!54 &1134266572
+Rigidbody:
+>>>>>>> origin/main
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1134266571}
+<<<<<<< HEAD
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5d3bc9da7e953e34b81cc6451bf10ac8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   correctOrganName: Pancreas
+=======
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+>>>>>>> origin/main
 --- !u!65 &1134266573
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5757,8 +6089,31 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
+<<<<<<< HEAD
   m_Size: {x: 0.15269628, y: 0.0767038, z: 0.04265513}
   m_Center: {x: 0.00000023841858, y: 0.00000023841858, z: -0.00000055134296}
+=======
+  m_Size: {x: 0.15269628, y: 0.07670379, z: 0.042655125}
+  m_Center: {x: 0.00000023841858, y: 0.00000023841858, z: 0.00000043213367}
+--- !u!114 &1134266574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134266571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d611cb5ec0724f50a2c474b51f51ffb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nom: Pancrees
+  recollit: 0
+  puntPut: {fileID: 1712687239}
+  modelOrgan: {fileID: 1134266571}
+=======
+>>>>>>> origin/main
+>>>>>>> origin/main
 --- !u!1 &1139128993
 GameObject:
   m_ObjectHideFlags: 0
@@ -5971,34 +6326,73 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4a4690a59bbcb489ea91e8e587b7a64d, type: 3}
       insertIndex: -1
+<<<<<<< HEAD
       addedObject: {fileID: 1144342059}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4a4690a59bbcb489ea91e8e587b7a64d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1144342060}
+=======
+      addedObject: {fileID: 1144342060}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4a4690a59bbcb489ea91e8e587b7a64d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1144342059}
+>>>>>>> origin/main
   m_SourcePrefab: {fileID: 100100000, guid: 4a4690a59bbcb489ea91e8e587b7a64d, type: 3}
 --- !u!4 &1144342057 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4a4690a59bbcb489ea91e8e587b7a64d, type: 3}
   m_PrefabInstance: {fileID: 1144342056}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/main
 --- !u!1 &1144342058 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4a4690a59bbcb489ea91e8e587b7a64d, type: 3}
   m_PrefabInstance: {fileID: 1144342056}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &1144342059
 MonoBehaviour:
+=======
+--- !u!54 &1144342059
+Rigidbody:
+>>>>>>> origin/main
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1144342058}
+<<<<<<< HEAD
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5d3bc9da7e953e34b81cc6451bf10ac8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   correctOrganName: Brain
+=======
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+>>>>>>> origin/main
 --- !u!135 &1144342060
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6018,8 +6412,15 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
+<<<<<<< HEAD
   m_Radius: 0.49551693
   m_Center: {x: -0.0018546933, y: -0.057028197, z: 0.20541418}
+=======
+  m_Radius: 0.49551696
+  m_Center: {x: -0.0018546932, y: -0.0570282, z: 0.20541418}
+=======
+>>>>>>> origin/main
+>>>>>>> origin/main
 --- !u!1001 &1168535155
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7054,10 +7455,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallIntestine
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/main
     - target: {fileID: 919132149155446097, guid: 98f022489baf7c248a5445c8a0a2a42c, type: 3}
       propertyPath: m_TagString
       value: Organ
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7068,17 +7474,40 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 98f022489baf7c248a5445c8a0a2a42c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1338456261}
+=======
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 98f022489baf7c248a5445c8a0a2a42c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1338456261}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 98f022489baf7c248a5445c8a0a2a42c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1338456260}
+=======
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+>>>>>>> origin/main
+>>>>>>> origin/main
   m_SourcePrefab: {fileID: 100100000, guid: 98f022489baf7c248a5445c8a0a2a42c, type: 3}
 --- !u!4 &1338456258 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 98f022489baf7c248a5445c8a0a2a42c, type: 3}
   m_PrefabInstance: {fileID: 1338456257}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/main
 --- !u!1 &1338456259 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 98f022489baf7c248a5445c8a0a2a42c, type: 3}
   m_PrefabInstance: {fileID: 1338456257}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &1338456260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7093,6 +7522,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctOrganName: Small Intestine
 --- !u!65 &1338456261
+=======
+--- !u!65 &1338456260
+>>>>>>> origin/main
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7111,14 +7543,22 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
+<<<<<<< HEAD
   m_Size: {x: 0.18572535, y: 0.20316535, z: 0.07604472}
   m_Center: {x: 0.0005763716, y: -0.01970483, z: 0.0052085156}
 --- !u!1 &1384017034
 GameObject:
+=======
+  m_Size: {x: 0.18572539, y: 0.1805533, z: 0.07604476}
+  m_Center: {x: 0.00057613803, y: -0.008398687, z: 0.005208486}
+--- !u!54 &1338456261
+Rigidbody:
+>>>>>>> origin/main
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1384017035}
@@ -7214,6 +7654,31 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+=======
+  m_GameObject: {fileID: 1338456259}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+=======
+>>>>>>> origin/main
+>>>>>>> origin/main
 --- !u!1 &1384255008
 GameObject:
   m_ObjectHideFlags: 0
@@ -7680,21 +8145,33 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 240212441d30a44519df11167c177909, type: 3}
       insertIndex: -1
+<<<<<<< HEAD
       addedObject: {fileID: 1656674286}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 240212441d30a44519df11167c177909, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1656674287}
+=======
+      addedObject: {fileID: 1656674287}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 240212441d30a44519df11167c177909, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1656674286}
+>>>>>>> origin/main
   m_SourcePrefab: {fileID: 100100000, guid: 240212441d30a44519df11167c177909, type: 3}
 --- !u!4 &1656674284 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 240212441d30a44519df11167c177909, type: 3}
   m_PrefabInstance: {fileID: 1656674283}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/main
 --- !u!1 &1656674285 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 240212441d30a44519df11167c177909, type: 3}
   m_PrefabInstance: {fileID: 1656674283}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &1656674286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7709,6 +8186,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctOrganName: Lungs
 --- !u!65 &1656674287
+=======
+--- !u!65 &1656674286
+>>>>>>> origin/main
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7727,8 +8207,42 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
+<<<<<<< HEAD
   m_Size: {x: 2.557579, y: 4.149005, z: 0.99999976}
   m_Center: {x: -0.0001223143, y: 1.669006, z: -0.00000070860716}
+=======
+  m_Size: {x: 2.6755486, y: 4.447248, z: 1.5602934}
+  m_Center: {x: -0.022539973, y: 1.7236344, z: -0.2801429}
+--- !u!54 &1656674287
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656674285}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+=======
+>>>>>>> origin/main
+>>>>>>> origin/main
 --- !u!1 &1701844507 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 23c9e7c710f294e86b306420d036975c, type: 3}
@@ -7899,6 +8413,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1703555767}
   m_CullTransparentMesh: 1
+--- !u!1 &1712687238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1712687239}
+  m_Layer: 0
+  m_Name: PancreasLocation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1712687239
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712687238}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.2722085, y: 0.67724854, z: 0.62314564, w: -0.28093877}
+  m_LocalPosition: {x: -0.0003, y: 0.0045, z: -0.0192}
+  m_LocalScale: {x: 0.04375026, y: 0.04375027, z: 0.043750256}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1134266570}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1714888211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8058,15 +8603,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c719ebbfaec3d174cb2f39dd35a189bf, type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/main
       value: Liver
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c719ebbfaec3d174cb2f39dd35a189bf, type: 3}
       propertyPath: m_TagString
       value: Organ
+<<<<<<< HEAD
+=======
+=======
+      value: liver exported for sketchfab - now with the fucking base colours included
+>>>>>>> origin/main
+>>>>>>> origin/main
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
+<<<<<<< HEAD
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c719ebbfaec3d174cb2f39dd35a189bf, type: 3}
       insertIndex: -1
@@ -8074,30 +8630,75 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c719ebbfaec3d174cb2f39dd35a189bf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1717828689}
+=======
+<<<<<<< HEAD
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c719ebbfaec3d174cb2f39dd35a189bf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1717828689}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c719ebbfaec3d174cb2f39dd35a189bf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1717828688}
+=======
+    m_AddedComponents: []
+>>>>>>> origin/main
+>>>>>>> origin/main
   m_SourcePrefab: {fileID: 100100000, guid: c719ebbfaec3d174cb2f39dd35a189bf, type: 3}
 --- !u!4 &1717828686 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c719ebbfaec3d174cb2f39dd35a189bf, type: 3}
   m_PrefabInstance: {fileID: 1717828685}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/main
 --- !u!1 &1717828687 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c719ebbfaec3d174cb2f39dd35a189bf, type: 3}
   m_PrefabInstance: {fileID: 1717828685}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &1717828688
 MonoBehaviour:
+=======
+--- !u!54 &1717828688
+Rigidbody:
+>>>>>>> origin/main
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1717828687}
+<<<<<<< HEAD
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5d3bc9da7e953e34b81cc6451bf10ac8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   correctOrganName: Liver
+=======
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+>>>>>>> origin/main
 --- !u!65 &1717828689
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8117,8 +8718,15 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
+<<<<<<< HEAD
   m_Size: {x: 0.08709936, y: 0.13079284, z: 0.15548441}
   m_Center: {x: -0.010035584, y: 0.011369216, z: -0.0012458945}
+=======
+  m_Size: {x: 0.07835054, y: 0.13059641, z: 0.19800505}
+  m_Center: {x: -0.01941594, y: -0.012130618, z: 0.008396311}
+=======
+>>>>>>> origin/main
+>>>>>>> origin/main
 --- !u!1 &1736462251
 GameObject:
   m_ObjectHideFlags: 0
