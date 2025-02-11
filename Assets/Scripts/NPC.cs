@@ -36,7 +36,7 @@ public class NPC : MonoBehaviour
         StartCoroutine(WaitForABit());
    }
 
-   public void ExitStore()
+   public void ExitQuestions()
    {
         _playerMover.canMove = true;
         VCamDisable.gameObject.SetActive(true);

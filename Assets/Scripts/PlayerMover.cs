@@ -182,4 +182,11 @@ public class PlayerMover : MonoBehaviour
         jumping = false;
 
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Organ"))
+        {
+            Debug.Log("Òrgan recollit: " + other.name);
+        }
+    }
 }
