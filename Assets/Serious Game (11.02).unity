@@ -2292,7 +2292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 435154884}
   - component: {fileID: 435154883}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TopView VCam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2315,7 +2315,7 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 10
+  m_Priority: 9
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
@@ -2346,14 +2346,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 435154882}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -3.2705498, y: 187.95288, z: 24.643482}
+  m_LocalRotation: {x: 0.68333095, y: -0.18153149, z: 0.18260498, w: 0.6831988}
+  m_LocalPosition: {x: -77.6, y: 35, z: 29.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1825150559}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 89.916, y: 0, z: 29.928}
 --- !u!1 &453603802
 GameObject:
   m_ObjectHideFlags: 0
@@ -2597,7 +2597,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &497492460
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2627,12 +2627,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 497492459}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -65.47542, y: 2.352087, z: 37.612328}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 25.270752, y: 353.30414, z: -17.333893}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1778235311}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &497492462
 MonoBehaviour:
@@ -2643,11 +2643,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 497492459}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27090ad2fe8a6ab4e9a2bb4aeeeac47e, type: 3}
+  m_Script: {fileID: 11500000, guid: 11eec787379dd0940aa7f11f3efbdf33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  normalCamera: {fileID: 213901565}
-  topDownCamera: {fileID: 435154883}
+  VCamDisable: {fileID: 213901565}
+  VCamEnable: {fileID: 435154883}
+  UI: {fileID: 1384017034}
+  HUD: {fileID: 836374876}
 --- !u!1001 &553033497
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8478,6 +8480,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 497492461}
   - {fileID: 1134266570}
   - {fileID: 1717828686}
   - {fileID: 1047391434}
@@ -8529,7 +8532,7 @@ GameObject:
   - component: {fileID: 1825150562}
   - component: {fileID: 1825150561}
   - component: {fileID: 1825150560}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: cm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9920,6 +9923,5 @@ SceneRoots:
   - {fileID: 973098398}
   - {fileID: 281024726}
   - {fileID: 1778235311}
-  - {fileID: 497492461}
   - {fileID: 435154884}
   - {fileID: 1965297757}
