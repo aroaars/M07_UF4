@@ -10,16 +10,19 @@ public class OrganPlacement : MonoBehaviour
     {
         if(other.gameObject.layer == 8)
         {
-            if (other.gameObject.name == correctOrganName)
+            if (other.gameObject.GetComponent<OrganCollector>().CarriedOrg.name == correctOrganName)
             {
-                Debug.Log("�rgan col�locat correctament!");
-                other.GetComponent<OrganCollector>().LeaveOrgan();
-                Destroy(other.gameObject);
+                Debug.Log("Organ collocat correctament!");
+                var organC = other.GetComponent<OrganCollector>();
+
+                organC.LeaveOrgan();
+
+                Destroy(gameObject, 0.1f);
 
             }
             else
             {
-                Debug.Log("�rgan incorrecte!");
+                Debug.Log("Organ incorrecte!");
             }
         }
 

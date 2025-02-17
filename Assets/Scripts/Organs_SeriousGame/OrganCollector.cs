@@ -5,13 +5,13 @@ using UnityEngine;
 public class OrganCollector : MonoBehaviour
 {
     public bool isCarryingOrgan = false;
-    public Transform CarriedOrg;
+    public GameObject CarriedOrg;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Organ") && !isCarryingOrgan)
         {
             isCarryingOrgan = true;
-            CarriedOrg = other.transform;
+            CarriedOrg = other.gameObject;
             other.gameObject.transform.parent = gameObject.transform; //fer null quan arribis on l'has d deixar
             Debug.Log("Òrgan recollit: " + other.name);
         }
@@ -19,6 +19,8 @@ public class OrganCollector : MonoBehaviour
     public void LeaveOrgan()
     {
                     isCarryingOrgan = false;
-            CarriedOrg.parent = null;
+            
+            CarriedOrg.transform.parent = null;
+            CarriedOrg.tag= "Untagged";
     }
 }

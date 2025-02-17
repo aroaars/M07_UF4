@@ -2071,9 +2071,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2fe444bfbb4364e58b879efc47a9a491, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 370695378}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2fe444bfbb4364e58b879efc47a9a491, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 370695379}
   m_SourcePrefab: {fileID: 100100000, guid: 2fe444bfbb4364e58b879efc47a9a491, type: 3}
 --- !u!4 &370695376 stripped
@@ -2086,19 +2083,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2fe444bfbb4364e58b879efc47a9a491, type: 3}
   m_PrefabInstance: {fileID: 370695375}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &370695378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 370695377}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d3bc9da7e953e34b81cc6451bf10ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  correctOrganName: Heart
 --- !u!135 &370695379
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2790,9 +2774,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 095318f69f0019c4e83f1cb126599ba2, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 553033500}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 095318f69f0019c4e83f1cb126599ba2, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 553033501}
   m_SourcePrefab: {fileID: 100100000, guid: 095318f69f0019c4e83f1cb126599ba2, type: 3}
 --- !u!4 &553033498 stripped
@@ -2805,19 +2786,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 095318f69f0019c4e83f1cb126599ba2, type: 3}
   m_PrefabInstance: {fileID: 553033497}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &553033500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 553033499}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d3bc9da7e953e34b81cc6451bf10ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  correctOrganName: Large Intestine
 --- !u!65 &553033501
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3058,9 +3026,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
       insertIndex: -1
       addedObject: {fileID: 627836481}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 627836482}
   m_SourcePrefab: {fileID: 100100000, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
 --- !u!4 &627836479 stripped
 Transform:
@@ -3095,19 +3060,6 @@ CapsuleCollider:
   m_Height: 0.048075657
   m_Direction: 1
   m_Center: {x: -0.0060487576, y: 0.0012956025, z: 0.0010689232}
---- !u!114 &627836482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 627836480}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d3bc9da7e953e34b81cc6451bf10ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  correctOrganName: Kidney 2
 --- !u!114 &698070776 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2929252283123773951, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
@@ -3563,9 +3515,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
       insertIndex: -1
       addedObject: {fileID: 771560887}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 771560888}
   m_SourcePrefab: {fileID: 100100000, guid: ae4e2850aa1181e44a07d09519682027, type: 3}
 --- !u!4 &771560885 stripped
 Transform:
@@ -3600,19 +3549,6 @@ CapsuleCollider:
   m_Height: 0.048075635
   m_Direction: 1
   m_Center: {x: -0.0060485164, y: 0.0012943204, z: 0.0010689239}
---- !u!114 &771560888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 771560886}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d3bc9da7e953e34b81cc6451bf10ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  correctOrganName: Kidney 1
 --- !u!1 &780702925
 GameObject:
   m_ObjectHideFlags: 0
@@ -5933,9 +5869,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9ee7aa446783c284f9f828f3119d4436, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1047391436}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9ee7aa446783c284f9f828f3119d4436, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1047391437}
   m_SourcePrefab: {fileID: 100100000, guid: 9ee7aa446783c284f9f828f3119d4436, type: 3}
 --- !u!4 &1047391434 stripped
@@ -5948,19 +5881,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9ee7aa446783c284f9f828f3119d4436, type: 3}
   m_PrefabInstance: {fileID: 1047391433}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1047391436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1047391435}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d3bc9da7e953e34b81cc6451bf10ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  correctOrganName: Stomach
 --- !u!135 &1047391437
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6222,9 +6142,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a0fd4e9cbf24c884da0a799fdaaddc28, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1134266572}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a0fd4e9cbf24c884da0a799fdaaddc28, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1134266573}
   m_SourcePrefab: {fileID: 100100000, guid: a0fd4e9cbf24c884da0a799fdaaddc28, type: 3}
 --- !u!4 &1134266570 stripped
@@ -6237,19 +6154,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a0fd4e9cbf24c884da0a799fdaaddc28, type: 3}
   m_PrefabInstance: {fileID: 1134266569}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1134266572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1134266571}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d3bc9da7e953e34b81cc6451bf10ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  correctOrganName: Pancreas
 --- !u!65 &1134266573
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6483,9 +6387,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4a4690a59bbcb489ea91e8e587b7a64d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1144342059}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4a4690a59bbcb489ea91e8e587b7a64d, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1144342060}
   m_SourcePrefab: {fileID: 100100000, guid: 4a4690a59bbcb489ea91e8e587b7a64d, type: 3}
 --- !u!4 &1144342057 stripped
@@ -6498,19 +6399,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4a4690a59bbcb489ea91e8e587b7a64d, type: 3}
   m_PrefabInstance: {fileID: 1144342056}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1144342059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1144342058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d3bc9da7e953e34b81cc6451bf10ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  correctOrganName: Brain
 --- !u!135 &1144342060
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7710,9 +7598,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 98f022489baf7c248a5445c8a0a2a42c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1338456260}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 98f022489baf7c248a5445c8a0a2a42c, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1338456261}
   m_SourcePrefab: {fileID: 100100000, guid: 98f022489baf7c248a5445c8a0a2a42c, type: 3}
 --- !u!4 &1338456258 stripped
@@ -7725,19 +7610,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 98f022489baf7c248a5445c8a0a2a42c, type: 3}
   m_PrefabInstance: {fileID: 1338456257}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1338456260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1338456259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d3bc9da7e953e34b81cc6451bf10ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  correctOrganName: Small Intestine
 --- !u!65 &1338456261
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8359,9 +8231,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 240212441d30a44519df11167c177909, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1656674286}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 240212441d30a44519df11167c177909, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1656674287}
   m_SourcePrefab: {fileID: 100100000, guid: 240212441d30a44519df11167c177909, type: 3}
 --- !u!4 &1656674284 stripped
@@ -8374,19 +8243,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 240212441d30a44519df11167c177909, type: 3}
   m_PrefabInstance: {fileID: 1656674283}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1656674286
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1656674285}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d3bc9da7e953e34b81cc6451bf10ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  correctOrganName: Lungs
 --- !u!65 &1656674287
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8749,9 +8605,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c719ebbfaec3d174cb2f39dd35a189bf, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1717828688}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c719ebbfaec3d174cb2f39dd35a189bf, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1717828689}
   m_SourcePrefab: {fileID: 100100000, guid: c719ebbfaec3d174cb2f39dd35a189bf, type: 3}
 --- !u!4 &1717828686 stripped
@@ -8764,19 +8617,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c719ebbfaec3d174cb2f39dd35a189bf, type: 3}
   m_PrefabInstance: {fileID: 1717828685}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1717828688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1717828687}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d3bc9da7e953e34b81cc6451bf10ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  correctOrganName: Liver
 --- !u!65 &1717828689
 BoxCollider:
   m_ObjectHideFlags: 0
