@@ -19,8 +19,10 @@ public class OrganCollector : MonoBehaviour
     public void LeaveOrgan()
     {
                     isCarryingOrgan = false;
-            
+            var organ = CarriedOrg.GetComponent<Organ>();
             CarriedOrg.transform.parent = null;
             CarriedOrg.tag= "Untagged";
+                        organ.DestroyComponent();
+
     }
 }

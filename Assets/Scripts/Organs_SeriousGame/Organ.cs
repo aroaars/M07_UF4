@@ -4,14 +4,11 @@ using UnityEngine;
 
 public class Organ : MonoBehaviour
 {
-    public GameObject player;
-    void Update()
-    {
-        if(player != null)
-            transform.position = player.transform.position;
-    }
+    public GameObject organRightPlace;
+
     public void DestroyComponent()
     {
-        Destroy(this);
+        organRightPlace.SetActive(true);
+        Destroy(gameObject);
     }
 }
