@@ -8,16 +8,23 @@ public class OrganPlacement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == correctOrganName)
+        if(other.gameObject.layer == 8)
         {
-            Debug.Log("Òrgan col·locat correctament!");
-            ScoreManager.Instance.AddPoints(2); // Afegeix punts
-            Destroy(other.gameObject);
+            if (other.gameObject.GetComponent<OrganCollector>().CarriedOrg.name == correctOrganName)
+            {
+                Debug.Log("Organ collocat correctament!");
+                var organC = other.GetComponent<OrganCollector>();
 
+                organC.LeaveOrgan();
+
+                Destroy(gameObject, 0.1f);
+
+            }
+            else
+            {
+                Debug.Log("Organ incorrecte!");
+            }
         }
-        else
-        {
-            Debug.Log("Òrgan incorrecte!");
-        }
+
     }
 }
